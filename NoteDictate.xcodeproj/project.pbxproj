@@ -20,6 +20,7 @@
 		47EF2756223705A600ECF305 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF2755223705A600ECF305 /* ExtensionDelegate.swift */; };
 		47EF2758223705A700ECF305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EF2757223705A700ECF305 /* Assets.xcassets */; };
 		47EF2768223768BB00ECF305 /* NoteSelectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF2767223768BB00ECF305 /* NoteSelectRow.swift */; };
+		47EF276A2237742500ECF305 /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF27692237742500ECF305 /* DetailInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		47EF2757223705A700ECF305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47EF2759223705A700ECF305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47EF2767223768BB00ECF305 /* NoteSelectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteSelectRow.swift; sourceTree = "<group>"; };
+		47EF27692237742500ECF305 /* DetailInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		47EF2752223705A600ECF305 /* NoteDictate WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				47EF27692237742500ECF305 /* DetailInterfaceController.swift */,
 				47EF2753223705A600ECF305 /* InterfaceController.swift */,
 				47EF2767223768BB00ECF305 /* NoteSelectRow.swift */,
 				47EF2755223705A600ECF305 /* ExtensionDelegate.swift */,
@@ -300,6 +303,7 @@
 			files = (
 				47EF2768223768BB00ECF305 /* NoteSelectRow.swift in Sources */,
 				47EF2756223705A600ECF305 /* ExtensionDelegate.swift in Sources */,
+				47EF276A2237742500ECF305 /* DetailInterfaceController.swift in Sources */,
 				47EF2754223705A600ECF305 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
