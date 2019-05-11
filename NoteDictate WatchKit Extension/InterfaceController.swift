@@ -45,7 +45,6 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func addNewNote() {
-        // testing branch restrictions
         presentTextInputController(withSuggestions: nil, allowedInputMode: .plain) {[unowned self]
             result in
             guard let result = result?.first as? String else { return }
